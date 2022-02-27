@@ -39,15 +39,15 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| _Design Overview: ICMs And Libraries Introductions_: |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep t :folding? t :label "ShIcm" :icmName "bpoActivate.sh" :comment "" :afterComment ""
+####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep t :folding? t :label "ShIcm" :icmName "bpoActivate.sh" :comment "Essential BPOs" :afterComment ""
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "bpoActivate.sh -i examples")][bpoActivate.sh]]  [[elisp:(lsip-local-run-command "bpoActivate.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "bpoActivate.sh -i describe")][describe]] *|*  == *|*   [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "bpoActivate.sh -i examples")][bpoActivate.sh]]  [[elisp:(lsip-local-run-command "bpoActivate.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "bpoActivate.sh -i describe")][describe]] *|*  =Essential BPOs= *|*   [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 ***
 ***  Create BPOs
 ***
-####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep nil :folding? t :label "ShIcm" :icmName "usgBpos.sh" :comment "" :afterComment ""
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "usgBpos.sh -i examples")][usgBpos.sh]]  [[elisp:(lsip-local-run-command "usgBpos.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "usgBpos.sh -i describe")][describe]] *|*  == *|*   [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep nil :folding? t :label "ShIcm" :icmName "usgBpos.sh" :comment "Applicable Realms For USG" :afterComment ""
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "usgBpos.sh -i examples")][usgBpos.sh]]  [[elisp:(lsip-local-run-command "usgBpos.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "usgBpos.sh -i describe")][describe]] *|*  =Applicable Realms For USG= *|*   [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "BPO Activations" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
