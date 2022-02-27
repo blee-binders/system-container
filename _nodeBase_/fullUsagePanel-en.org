@@ -45,14 +45,17 @@
 ####+BEGIN: blee:bxPanel:linkWithTreeElem :agenda t :sep nil :outLevel 2 :model "auto" :foldDesc "auto" :destDesc "This System As A Platform" :dest "//bisos/git/auth/bxRepos/blee-binders/bisos-core/platform/_nodeBase_/"
 * [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "//bisos/git/auth/bxRepos/blee-binders/bisos-core/platform/_nodeBase_/")][@ ~This System As A Platform~ @]]   ::  [[elisp:(org-cycle)][| /platform/ |]]  [[elisp:(org-shifttab)][<)]] E|
 ####+END
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Realted ICMs Introductions" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Realted ICMs Introductions_: |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep nil :folding? t :label "Icm" :icmName "cntnrDevel.sh" :comment "Activate UDG Dev goto Auth" :afterComment ""
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /Icm/ |]] :: [[elisp:(lsip-local-run-command "cntnrDevel.sh -i examples")][cntnrDevel.sh]]  [[elisp:(lsip-local-run-command "cntnrDevel.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "cntnrDevel.sh -i describe")][describe]] *|*  =Activate UDG Dev goto Auth= *|*   [[elisp:(org-shifttab)][<)]] E|
+####+END:
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Enable Development" :anchor "" :extraInfo "Activates BISOS-Dev Credentials BPO"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Enable Development:* |]]  Activates BISOS-Dev Credentials BPO  [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:panel:icm:bash:intro :outLevel 2 :sep nil :folding? t :label "ShIcm" :icmName "cntnrDevel.sh" :comment "Activate UDG Dev Credentials" :afterComment ""
-** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "cntnrDevel.sh -i examples")][cntnrDevel.sh]]  [[elisp:(lsip-local-run-command "cntnrDevel.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "cntnrDevel.sh -i describe")][describe]] *|*  =Activate UDG Dev Credentials= *|*   [[elisp:(org-shifttab)][<)]] E|
-####+END:
-*** Activate UDG Dev Credentials and switch to auth from anon
 ####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 2 :sep nil :folding? nil :label "Cmnd" :icmName "cntnrDevel.sh -i bisosDevBxo_fullSetup" :comment "" :afterComment ""
 ** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Cmnd/ :: [[elisp:(lsip-local-run-command "cntnrDevel.sh -i bisosDevBxo_fullSetup")][cntnrDevel.sh -i bisosDevBxo_fullSetup]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
 ####+END:
