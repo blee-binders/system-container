@@ -39,15 +39,15 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| _Design Overview: ICMs And Libraries Introductions_: |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep t :folding? t :label "ShIcm" :icmName "bpoActivate.sh" :comment "Essential BPOs" :afterComment ""
+####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep t :folding? t :label "ShIcm" :icmName "bpoActivate.sh" :comment "" :afterComment ""
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "bpoActivate.sh -i examples")][bpoActivate.sh]]  [[elisp:(lsip-local-run-command "bpoActivate.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "bpoActivate.sh -i describe")][describe]] *|*  =Essential BPOs= *|*   [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "bpoActivate.sh -i examples")][bpoActivate.sh]]  [[elisp:(lsip-local-run-command "bpoActivate.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "bpoActivate.sh -i describe")][describe]] *|*  == *|*   [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 ***
 ***  Create BPOs
 ***
-####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep nil :folding? t :label "ShIcm" :icmName "usgBpos.sh" :comment "Applicable Realms For USG" :afterComment ""
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "usgBpos.sh -i examples")][usgBpos.sh]]  [[elisp:(lsip-local-run-command "usgBpos.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "usgBpos.sh -i describe")][describe]] *|*  =Applicable Realms For USG= *|*   [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:panel:icm:bash:intro :outLevel 1 :sep nil :folding? t :label "ShIcm" :icmName "usgBpos.sh" :comment "" :afterComment ""
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /ShIcm/ |]] :: [[elisp:(lsip-local-run-command "usgBpos.sh -i examples")][usgBpos.sh]]  [[elisp:(lsip-local-run-command "usgBpos.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "usgBpos.sh -i describe")][describe]] *|*  == *|*   [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "BPO Activations" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
@@ -56,10 +56,11 @@
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Initial Real Entity Activation" :anchor "" :extraInfo ""
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Initial Real Entity Activation:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep t :folding? nil :label "Cmnd" :icmName "bpoActivate.sh 2> /dev/null | grep -i 'Real Individual'" :comment "" :afterComment ""
+####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep t :folding? t :label "Cmnd" :icmName "bpoActivate.sh 2> /dev/null | grep -i 'Real Individual'" :comment "" :afterComment ""
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Cmnd/ :: [[elisp:(lsip-local-run-command "bpoActivate.sh 2> /dev/null | grep -i 'Real Individual'")][bpoActivate.sh 2> /dev/null | grep -i 'Real Individual']] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /Cmnd/ |]] :: [[elisp:(lsip-local-run-command "bpoActivate.sh 2> /dev/null | grep -i 'Real Individual'")][bpoActivate.sh 2> /dev/null | grep -i 'Real Individual']] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
 ####+END:
+** Activates the real indivital baed on type of BPOs at git server
 ####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep nil :folding? nil :label "Cmnd" :icmName "usgBpos.sh 2> /dev/null | grep 'Main Entry Controller'" :comment "" :afterComment ""
 * [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Cmnd/ :: [[elisp:(lsip-local-run-command "usgBpos.sh 2> /dev/null | grep 'Main Entry Controller'")][usgBpos.sh 2> /dev/null | grep 'Main Entry Controller']] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
 ####+END:
@@ -78,13 +79,15 @@
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Lcnt Setups" :anchor "" :extraInfo ""
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Lcnt Setups:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep t :folding? nil :label "Cmnd" :icmName "bisosLcntSetup.sh -h -v -n showRun -i lcntBasesFullSetup" :comment "" :afterComment ""
+####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep t :folding? t :label "Cmnd" :icmName "bisosLcntSetup.sh -h -v -n showRun -i lcntBasesFullSetup" :comment "" :afterComment ""
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Cmnd/ :: [[elisp:(lsip-local-run-command "bisosLcntSetup.sh -h -v -n showRun -i lcntBasesFullSetup")][bisosLcntSetup.sh -h -v -n showRun -i lcntBasesFullSetup]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /Cmnd/ |]] :: [[elisp:(lsip-local-run-command "bisosLcntSetup.sh -h -v -n showRun -i lcntBasesFullSetup")][bisosLcntSetup.sh -h -v -n showRun -i lcntBasesFullSetup]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
 ####+END:
-####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep nil :folding? nil :label "Cmnd" :icmName "bisosLcntSetup.sh -h -v -n showRun -i bisosLcntBinsPrep" :comment "" :afterComment ""
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Cmnd/ :: [[elisp:(lsip-local-run-command "bisosLcntSetup.sh -h -v -n showRun -i bisosLcntBinsPrep")][bisosLcntSetup.sh -h -v -n showRun -i bisosLcntBinsPrep]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
+** Activates relevant lcnt BPOs
+####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep nil :folding? t :label "Cmnd" :icmName "bisosLcntSetup.sh -h -v -n showRun -i bisosLcntBinsPrep" :comment "" :afterComment ""
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /Cmnd/ |]] :: [[elisp:(lsip-local-run-command "bisosLcntSetup.sh -h -v -n showRun -i bisosLcntBinsPrep")][bisosLcntSetup.sh -h -v -n showRun -i bisosLcntBinsPrep]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
 ####+END:
+** Takes a long time to run. apt-gets all tex modules.
 ####+BEGIN: blee:panel:icm:bash:cmnd :outLevel 1 :sep nil :folding? nil :label "Cmnd" :icmName "bpoActivate.sh -h -v -n showRun -p privacy=priv -i bpoActivate pip_lcnt_bystarCommon" :comment "" :afterComment ""
 * [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Cmnd/ :: [[elisp:(lsip-local-run-command "bpoActivate.sh -h -v -n showRun -p privacy=priv -i bpoActivate pip_lcnt_bystarCommon")][bpoActivate.sh -h -v -n showRun -p privacy=priv -i bpoActivate pip_lcnt_bystarCommon]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
 ####+END:
